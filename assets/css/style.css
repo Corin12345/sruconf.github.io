@@ -567,12 +567,17 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-
+.about .container{
+  border: 2px dashed #b95b03;
+  border-radius: 40px;
+  
+}
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
   padding-top: 150px;
 }
+
 
 .about .content ul {
   list-style: none;
