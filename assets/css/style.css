@@ -567,9 +567,11 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
+  padding-top: 150px;
 }
 
 .about .content ul {
@@ -601,6 +603,12 @@ section {
 .about .content .learn-more-btn:hover {
   background: #3ac162;
   color: #fff;
+}
+/*My Media Query*/
+@media (max-width: 991px) {
+  .about .content h3{
+    padding-top: 0px;
+  }
 }
 
 @media (max-width: 768px) {
