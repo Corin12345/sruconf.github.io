@@ -568,9 +568,8 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .container{
-  border: 2px dashed #b95b03;
-  border-radius: 40px;
-  
+  box-shadow: 5px 5px 20px 5px #e18615; 
+  border-radius: 50px;
 }
 .about .content h3 {
   font-weight: 600;
